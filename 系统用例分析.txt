@@ -2,7 +2,6 @@
 	查找周边车辆
 		乘客：
 			设定上车地点
-			查询附近车辆
 			监控附近车辆行进轨迹
 				include 监控车辆行进轨迹
 	呼叫约车
@@ -11,10 +10,10 @@
 				extends 设定预约时间
 			查询预估车费 √
 			发布行程 √
-			接收接单通知 √
 				include 取消监控附近车辆行进轨迹
+			接收接单通知 √
 				include 查询车主信息 √
-				include 查询车辆信息 √
+				include 查询车辆资料 √
 			监控行车过程
 				include 查询行程推荐路线
 				include 监控车辆行进轨迹 √
@@ -26,7 +25,7 @@
 				extends 查询行程信息 √
 				include 暂停听单 √
 				include 查询乘客信息 √
-			通知乘客接单 √
+				include 通知乘客接单 √
 				include 查询前往上车地点路线
 			确认乘客上车 √
 				include 查询行程推荐路线
@@ -34,7 +33,7 @@
 				include 上传当前位置 √
 				include 监控车辆行进轨迹
 			监控车费变动
-				include 查询当前计价规则 √
+				include 查询订单当前计价规则 √
 				include 计算行程车费
 			确认到达
 				include 结束计算行程车费 √
